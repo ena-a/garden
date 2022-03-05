@@ -4,8 +4,10 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #022340;
+    display: flex;
+    flex-direction: column;
 }
-header, .hero, footer {
+header, .hero, nav a, footer {
     color: #f9faf8;
 }
 
@@ -19,6 +21,9 @@ header, .hero, footer {
     font-weight: 700;
 }
 
+.secondary-text {
+    font-size: 18px;
+}
 .inspiration {
     background-color: #e5e7eb;
 }
@@ -26,3 +31,21 @@ header, .hero, footer {
 .gallery, .call-to-action {
     background-color: #fff;
 }
+
+section {
+    height: 250px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav li{
+      list-style: none;
+      text-decoration: none;
+  }
+
+  nav a{
+      text-decoration: none;
+  }
