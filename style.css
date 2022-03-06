@@ -6,7 +6,19 @@ body {
     background-color: #022340;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 100px;
+  }
+
+section, footer {
+    padding: 0 50px;
+}
+
 header, .hero, nav a, footer {
     color: #f9faf8;
 }
@@ -14,8 +26,12 @@ header, .hero, nav a, footer {
 .logo {
     font-weight: 900;
     font-size: 50px;
+    margin-top: 12px;
 }
 
+h1 {
+    margin: 0;
+}
 .hero h1 {
     font-size: 48px;
     font-weight: 700;
@@ -23,7 +39,9 @@ header, .hero, nav a, footer {
 
 .secondary-text {
     font-size: 18px;
+    color: #e5e7eb;
 }
+
 .inspiration {
     background-color: #e5e7eb;
 }
@@ -33,19 +51,50 @@ header, .hero, nav a, footer {
 }
 
 section {
-    height: 250px;
+    min-height: 350px;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
+  nav li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
   }
 
-  nav li{
-      list-style: none;
-      text-decoration: none;
+  nav {
+      margin-top: 25px;
   }
 
   nav a{
-      text-decoration: none;
+    text-decoration: none;
   }
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero figure {
+    background-color: gray;
+    width: 580px;
+    height: 250px;
+    margin: 0;
+  }
+
+.left-col {
+    width: 450px;
+}
+
+.hero button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    padding: 5px 28px 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+p.hero-img {
+    text-align: center;
+}
