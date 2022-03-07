@@ -26,15 +26,15 @@ header, .hero, nav a, footer {
 .logo {
     font-weight: 900;
     font-size: 50px;
-    margin-top: 12px;
+    margin: 12px 0 0;
 }
-
-h1 {
-    margin: 0;
-}
-.hero h1 {
+    
+.left-col h1 {
     font-size: 48px;
     font-weight: 700;
+    margin: 0;
+    text-align: left;
+    padding: 0;
 }
 
 .secondary-text {
@@ -44,10 +44,12 @@ h1 {
 
 .inspiration {
     background-color: #e5e7eb;
+    padding: 30px;
 }
 
 .gallery, .call-to-action {
     background-color: #fff;
+    padding: 30px;
 }
 
 section {
@@ -77,7 +79,7 @@ section {
 .hero figure {
     background-color: gray;
     width: 580px;
-    height: 250px;
+    height: 252px;
     margin: 0;
   }
 
@@ -98,3 +100,36 @@ section {
 p.hero-img {
     text-align: center;
 }
+
+.gallery-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.gallery-wrapper figure {
+    width: 150px;
+}
+
+.gallery-wrapper figure span {
+    border: #3882f6 solid 3px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    display: block;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+    font-size: 38px;
+    font-weight: 700;
+
+  }
+
+  figcaption {
+      padding: 5px;
+  }
