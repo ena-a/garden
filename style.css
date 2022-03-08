@@ -70,9 +70,6 @@ section {
     margin-right: 10px;
   }
 
-  nav {
-      margin-top: 25px;
-  }
 
   nav a{
     text-decoration: none;
@@ -94,7 +91,7 @@ section {
   }
 
 .left-col {
-    width: 500px;
+    width: 550px;
 }
 
 .hero button {
