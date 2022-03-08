@@ -91,7 +91,7 @@ section {
   }
 
 .left-col {
-    width: 450px;
+    width: 500px;
 }
 
 .hero button {
@@ -164,14 +164,14 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 18px;
 }
   .c-t-a-wrapper {
       background-color: #3882f6;
       border-radius: 10px;
       height: 200px;
-      width: 860px;
       padding: 30px 50px;
-      margin: auto;
+      margin: 0 20px;
       display: flex;
       justify-content: space-around;
   }
@@ -185,8 +185,21 @@ h1 {
     width: 120px;
     height: 40px;
     border: solid 2px #fff;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: #3882f2;
     color: #fff;
     margin-top: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+footer {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+footer p {
+    text-align: center;
+    font-size: 18px;
 }
