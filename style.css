@@ -1,5 +1,9 @@
 /* style.css */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,100&display=swap');
+
+*, ::after, ::before {
+    box-sizing:border-box;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -45,6 +49,9 @@ header, .hero, nav a, footer {
 .inspiration {
     background-color: #e5e7eb;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .gallery, .call-to-action {
@@ -118,7 +125,6 @@ p.hero-img {
     width: 150px;
     height: 150px;
     display: block;
-    box-sizing: border-box;
 }
 
 h1 {
@@ -133,3 +139,54 @@ h1 {
   figcaption {
       padding: 5px;
   }
+
+  blockquote p {
+      font-size: 36px;
+      font-style: italic;
+      width: 700px;
+      margin: auto;
+  }
+
+  blockquote footer {
+    padding: 0;
+  }
+
+  .inspiration footer p {
+      color: #000;
+      text-align: right;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+  }
+
+  .call-to-action {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  .c-t-a-wrapper {
+      background-color: #3882f6;
+      border-radius: 10px;
+      height: 200px;
+      width: 860px;
+      padding: 30px 50px;
+      margin: auto;
+      display: flex;
+      justify-content: space-around;
+  }
+
+.c-t-a-wrapper .left-col > :first-child {
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.c-t-a-wrapper button {
+    width: 120px;
+    height: 40px;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    background-color: #3882f2;
+    color: #fff;
+    margin-top: 50px;
+}
